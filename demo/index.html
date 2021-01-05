@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimal-ui:ios">
+        <title>JSnackbar - Material Snackbar</title>
+        <link rel="stylesheet" href="../dist/JSnackbar.css">
+    </head>
+    <body>
+        <button id="open_default">Show JSnackbar</button>
+        <button id="open_success">Show success JSnackbar</button>
+        <button id="open_danger">Show danger JSnackbar</button>
+        <button id="clear">Clear JSnackbar</button>
+        <script type="application/javascript" src="../dist/JSnackbar.js"></script>
+        <script>
+            document.getElementById("open_default").addEventListener("click",()=>{JSnackbar.show("Yeah! It's working!")})
+            document.getElementById("open_success").addEventListener("click",()=>{JSnackbar.show("Yeah! It's working!","success")})
+            document.getElementById("open_danger").addEventListener("click",()=>{JSnackbar.show("nope.","danger")})
+            document.getElementById("clear").addEventListener("click",()=>{JSnackbar.clear()})
+        </script>
+    </body>
+</html>
