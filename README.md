@@ -11,5 +11,6 @@ Close JSnackbar:
 JSnackbar.clear()
 ```
 
-Demo: [Check Here](https://sonic853.github.io/JSnackbar/demo/)!
+Demo: [Check Here](https://853lab.github.io/JSnackbar/demo/)!
+
 Edit from [mSnackbar](https://github.com/lukas-vollmer/mSnackbar).
